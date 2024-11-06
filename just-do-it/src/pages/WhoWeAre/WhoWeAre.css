@@ -1,3 +1,51 @@
 .who-we-are{
     color: white;
 }
+.card{
+    margin: 30px 10%;
+    padding: 20px;
+    background: radial-gradient(circle at 10% 20%, rgb(236, 204, 204) 0%, rgb(64, 64, 64) 90.2%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(19, 19, 19, 0.2), 0 6px 20px 0 rgba(18, 17, 17, 0.19);
+}
+
+.text_h1{
+    width: 80%;
+}
+.text_h1 h1{
+    padding: 0px 20px;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+}
+.text_red{
+    color: red;
+}
+p{
+    font-size: 28px;
+}
+
+@media (max-width: 750px) {
+    .card{
+        margin: 0;
+        padding: 20px;
+        background: none;
+        border-radius: 0;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        box-shadow:none
+    }.text_h1{
+        width: 100%;
+    }
+    .text_h1 h1{
+        padding: 0px;
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+    }
+  }
