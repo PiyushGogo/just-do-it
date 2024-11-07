@@ -4,6 +4,7 @@ import "./Home.css";
 import ContactUs from "../ContactUs/ContactUs";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import WorkFlowPage from "../WorkFlowPage/WorkFlowPage";
+import Services from "../Serivces/Services";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <WhyChooseUs />
         <ContactUs />
         <WorkFlowPage />
+        <Services />
       </div>
     </>
   );
