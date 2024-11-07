@@ -1,0 +1,11 @@
+.why-choose-us{
+    text-align: center;
+}
+.why-card{
+    margin: 50px auto;
+    width: 60%;
+    padding: 20px;
+    background: radial-gradient(circle at 10% 20%, rgb(236, 204, 204) 0%, rgb(64, 64, 64) 90.2%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(19, 19, 19, 0.2), 0 6px 20px 0 rgba(18, 17, 17, 0.19);
+}

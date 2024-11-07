@@ -12,8 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/who-we-are" element={<WhoWeAre />} />
       </Routes>
       <Footer />
     </div>
