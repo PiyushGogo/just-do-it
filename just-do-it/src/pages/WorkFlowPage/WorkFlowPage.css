@@ -1,0 +1,53 @@
+.workflow-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .workflow-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .workflow-step {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  @media (min-width: 768px) {
+    .workflow-steps {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .workflow-step {
+      flex: 1 1 calc(48% - 10px);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .workflow-step {
+      flex: 1 1 calc(30% - 10px);
+    }
+  }
+  
