@@ -5,6 +5,7 @@ import ContactUs from "../ContactUs/ContactUs";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import WorkFlowPage from "../WorkFlowPage/WorkFlowPage";
 import Services from "../Serivces/Services";
+import ClientsSection from "../ClientsSection/ClientsSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <ContactUs />
         <WorkFlowPage />
         <Services />
+        <ClientsSection />
       </div>
     </>
   );
