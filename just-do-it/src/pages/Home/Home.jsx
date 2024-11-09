@@ -6,6 +6,9 @@ import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import WorkFlowPage from "../WorkFlowPage/WorkFlowPage";
 import Services from "../Serivces/Services";
 import ClientsSection from "../ClientsSection/ClientsSection";
+import GoalSection from "../GoalSection/GoalSection";
+import TeamSection from "../TeamSection/TeamSection";
+import HighlightsSection from "../HighlightsSection/HighlightsSection";
 
 const Home = () => {
   return (
@@ -17,6 +20,9 @@ const Home = () => {
         <WorkFlowPage />
         <Services />
         <ClientsSection />
+        <GoalSection />
+        <TeamSection />
+        <HighlightsSection />
       </div>
     </>
   );

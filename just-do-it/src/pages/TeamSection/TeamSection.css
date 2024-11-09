@@ -1,0 +1,96 @@
+.team-section {
+    padding: 4rem 2rem;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .team-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e74c3c;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background-color: #2b2b2b;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .image-wrapper {
+    position: relative;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .name-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .member-info {
+    margin-top: 1rem;
+  }
+  
+  .member-info h3 {
+    font-size: 1.2rem;
+    color: #e74c3c;
+  }
+  
+  .member-info p {
+    font-size: 0.9rem;
+    color: #d1d1d1;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .team-heading {
+      font-size: 2rem;
+    }
+  
+    .member-info h3 {
+      font-size: 1rem;
+    }
+  
+    .member-info p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-heading {
+      font-size: 1.5rem;
+    }
+  
+    .member-info h3 {
+      font-size: 0.9rem;
+    }
+  
+    .member-info p {
+      font-size: 0.75rem;
+    }
+  }
+  
