@@ -1,0 +1,124 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    height: 60px; /* Height of the header */
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.header .logo {
+    height: 50px; /* Keep the logo size responsive */
+    width: auto; /* Maintain aspect ratio */
+    position: relative;
+    top: 0.5rem;
+}
+
+/* Navigation styles */
+.header nav {
+    display: flex;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: var(--primary-text, #fff); /* Default white text */
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transitions for color and hover effects */
+}
+
+/* Hover effect for each navigation link */
+.header nav ul li a:hover {
+    color: #ff6600; /* Change text color on hover */
+    transform: scale(1.1); /* Add scale animation */
+}
+
+/* Sliding underline effect */
+.header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6600; /* Underline color */
+    transition: width 0.3s ease; /* Smooth sliding effect */
+}
+
+.header nav ul li a:hover::after {
+    width: 100%; /* Full-width underline on hover */
+}
+
+/* Mobile menu styles */
+.menu-toggle {
+    display: none; /* Hide menu toggle by default */
+    cursor: pointer;
+    font-size: 24px; /* Size of menu icon */
+    color: #fff; /* Color of menu icon */
+}
+
+.header nav.nav-open {
+    display: flex; /* Show nav when toggled */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row; /* Stack header items vertically */
+        align-items: flex-start; /* Align items to the start */
+        padding: 0.5rem 1rem; /* Add padding for better mobile layout */
+    }
+
+    .header nav {
+        display: none; /* Hide navigation by default */
+        flex-direction: column; /* Stack items vertically in mobile view */
+        width: 100%; /* Full width */
+        position: absolute; /* Position it below the header */
+        top: 60px; /* Adjust based on header height */
+        left: 0;
+        background-color: #000; /* Background color to match header */
+        z-index: 10; /* Ensure it appears above other elements */
+    }
+
+    .header nav.nav-open {
+        display: flex; /* Show nav when toggled */
+    }
+
+    .menu-toggle {
+        display: block; /* Show menu toggle on mobile */
+    }
+
+    .header nav ul {
+        flex-direction: column; /* Stack items vertically */
+        gap: 1rem; /* Adjust gap between items */
+        width: 100%;
+        padding: 1rem 0; /* Add padding */
+    }
+
+    .header nav ul li a {
+        text-align: left; /* Align links to the left */
+        padding: 1rem 2rem; /* Increase padding for easier tap */
+        font-size: 18px; /* Adjust font size for better mobile readability */
+    }
+
+    .header nav ul li a:hover {
+        transform: none; /* Remove hover transform on mobile */
+    }
+}

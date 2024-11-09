@@ -28,7 +28,7 @@ const highlightsData = [
   },
   {
     title: "FITNESS INFLUENCER WORKOUTS",
-    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
+    video: "/Vinay.mp4", // Replace with your video URL
     description:
       "Creative, high-energy workout videos featuring fitness influencers, designed to inspire and motivate audiences while promoting a healthy lifestyle.",
   },
