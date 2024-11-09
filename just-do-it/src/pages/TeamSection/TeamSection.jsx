@@ -8,56 +8,56 @@ const teamMembers = [
     role: "DIGITAL MARKETING & CREATIVE STRATEGIST",
     description:
       "Passionate about blending strategy and creativity to bring brands to life through engaging digital experiences that connect and drive growth.",
-    image: "/Manish.png",
+    image: "/Manish.webp",
   },
   {
     name: "MADHU",
     role: "SENIOR VIDEO EDITOR",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Madhu.png",
+    image: "/Madhu.webp",
   },
   {
     name: "SOURAJIT",
     role: "SENIOR CONTENT WRITER & CREATIVE STRATEGIST",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Sourajit.png",
+    image: "/Sourajit.webp",
   },
   {
     name: "MADHU",
     role: "SENIOR VIDEO EDITOR",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Madhu.png",
+    image: "/Madhu.webp",
   },
   {
     name: "PIYUSH",
     role: "JUNIOR VIDEO EDITOR",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Piyush.png",
+    image: "/Piyush.webp",
   },
   {
     name: "NIKHIL",
     role: "INFLUENCER MARKETING SPECIALIST",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Nikhil.png",
+    image: "/Nikhil.webp",
   },
   {
     name: "SAGAR",
     role: "PHOTOGRAPHER",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Sagar.png",
+    image: "/Sagar.webp",
   },
   {
     name: "PRAVEEN",
     role: "CONTENT SCRIPT SPECIALIST",
     description:
       "Expert in Adobe Premiere Pro and Photoshop, with experience creating polished, professional videos for diverse industries.",
-    image: "/Praveen.png",
+    image: "/Praveen.webp",
   },
 ];
 
