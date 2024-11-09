@@ -1,75 +1,61 @@
 .highlights-section {
-    padding: 20px;
-    background-color: #1a1a1a;
-    color: #fff;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #ff4500;
-  }
-  
-  .highlights-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.highlights-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.highlight-card {
+  flex: 1 1 calc(20% - 20px); /* Adjusts the width to display 5 in a row on larger screens */
+  min-width: 250px; /* Minimum width for each card */
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.highlight-card:hover {
+  transform: translateY(-10px);
+}
+
+.video-container {
+  width: 100%;
+  height: 190px;
+}
+
+.highlight-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.highlight-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.highlight-description {
+  font-size: 0.9em;
+}
+
+/* Mobile view: one section per line */
+@media (max-width: 768px) {
   .highlight-card {
-    background-color: #2c2c2c;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: calc(20% - 16px);
-    flex: 1 1 calc(20% - 16px);
+    flex: 1 1 100%; /* Full width for mobile */
   }
-  
-  .highlight-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  }
-  
-  .image-container {
-    width: 100%;
-    height: auto;
-  }
-  
-  .highlight-image {
-    width: 100%;
-    display: block;
-    border-bottom: 2px solid #ff4500;
-  }
-  
-  .card-content {
-    padding: 15px;
-  }
-  
-  .card-title {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #00bfff;
-  }
-  
-  .card-description {
-    font-size: 0.9rem;
-    line-height: 1.4;
-  }
-  
-  @media (max-width: 768px) {
-    .highlight-card {
-      width: calc(50% - 16px);
-      flex: 1 1 calc(50% - 16px);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .highlight-card {
-      width: 100%;
-      flex: 1 1 100%;
-    }
-  }
-  
+}

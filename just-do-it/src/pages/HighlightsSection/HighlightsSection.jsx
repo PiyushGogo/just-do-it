@@ -4,31 +4,31 @@ import "./HighlightsSection.css";
 const highlightsData = [
   {
     title: "VIDEO PODCAST",
-    image: "/path/to/image1.jpg",
+    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
     description:
       "Engaging conversations that spark ideas and inspire audiences. Our video podcasts deliver insightful discussions tailored for your brand.",
   },
   {
     title: "OFFERS PROMOTING REELS",
-    image: "/path/to/image2.jpg",
+    video: "https://www.w3schools.com/html/movie.mp4", // Replace with your video URL
     description:
       "Captivating reels designed to highlight special offers and promotions, driving audience engagement and conversions.",
   },
   {
     title: "INTRODUCING NEW SERVICES",
-    image: "/path/to/image3.jpg",
+    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
     description:
       "Showcasing your brand's new services with dynamic visuals and compelling narratives that capture attention and inform.",
   },
   {
     title: "CUSTOMER TESTIMONIALS",
-    image: "/path/to/image4.jpg",
+    video: "https://www.w3schools.com/html/movie.mp4", // Replace with your video URL
     description:
       "Authentic customer testimonials that build trust and credibility, showcasing the real impact of your brand on lives.",
   },
   {
     title: "FITNESS INFLUENCER WORKOUTS",
-    image: "/path/to/image5.jpg",
+    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
     description:
       "Creative, high-energy workout videos featuring fitness influencers, designed to inspire and motivate audiences while promoting a healthy lifestyle.",
   },
@@ -41,16 +41,18 @@ const HighlightsSection = () => {
       <div className="highlights-container">
         {highlightsData.map((item, index) => (
           <div key={index} className="highlight-card">
-            <div className="image-container">
-              <img
-                src={item.image}
-                alt={item.title}
-                className="highlight-image"
-              />
+            <div className="video-container">
+              <video
+                src={item.video}
+                className="highlight-video"
+                controls
+                loop
+                muted
+              ></video>
             </div>
             <div className="card-content">
-              <h3 className="card-title">{item.title}</h3>
-              <p className="card-description">{item.description}</p>
+              <h3 className="highlight-title">{item.title}</h3>
+              <p className="highlight-description">{item.description}</p>
             </div>
           </div>
         ))}
