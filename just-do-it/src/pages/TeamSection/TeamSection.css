@@ -1,8 +1,9 @@
 .team-section {
     padding: 4rem 2rem;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
+    background: linear-gradient(135deg, #1d1d1d, #2c2c2c);
     color: #ffffff;
-    border-radius: 12px;
+    /* border-radius: 12px; */
   }
   
   .team-heading {

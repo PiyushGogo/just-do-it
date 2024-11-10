@@ -15,14 +15,14 @@ const Home = () => {
     <>
       <div className="home">
         <WhoWeAre />
-        <WhyChooseUs />
-        <ContactUs />
-        <WorkFlowPage />
-        <Services />
         <ClientsSection />
         <GoalSection />
         <TeamSection />
         <HighlightsSection />
+        <Services />
+        <WorkFlowPage />
+        <WhyChooseUs />
+        <ContactUs />
       </div>
     </>
   );

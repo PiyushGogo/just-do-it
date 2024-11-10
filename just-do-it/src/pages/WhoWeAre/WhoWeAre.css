@@ -1,8 +1,11 @@
 .who-we-are{
     color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 2rem;
 }
 .card{
-    margin: 30px 10%;
+    /* margin: 30px 10%; */
     padding: 20px;
     background: radial-gradient(circle at 10% 20%, rgb(236, 204, 204) 0%, rgb(64, 64, 64) 90.2%);
     border-radius: 10px;
