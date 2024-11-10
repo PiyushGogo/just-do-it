@@ -37,7 +37,9 @@ const highlightsData = [
 const HighlightsSection = () => {
   return (
     <section className="highlights-section">
-      <h2 className="section-title">HIGHLIGHTS OF OUR PROJECTS</h2>
+      <h2 className="section-title">
+        HIGHLIGHTS OF <span className="team-highlight"> OUR PROJECTS </span>
+      </h2>
       <div className="highlights-container">
         {highlightsData.map((item, index) => (
           <div key={index} className="highlight-card">
