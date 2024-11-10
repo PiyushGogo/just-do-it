@@ -6,7 +6,7 @@ const ClientsSection = () => {
     <section className="clients-section">
       <div className="clients-content">
         <div className="clients-text">
-          <h1>
+          <h1 className="title_red">
             CLIENTS <br />
             <span className="highlight_h1">WE'VE SERVED</span>
           </h1>

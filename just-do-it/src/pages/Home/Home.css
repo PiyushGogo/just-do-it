@@ -1,1 +1,25 @@
 
+.title_red {
+    font-size: 2.5rem;
+    color: red;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+.title_white {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.text_p {
+    font-size: 26px;
+    color: white;
+}
+.card_heading {
+  font-size: 18px;
+  color: red;
+}
+.card_desc {
+  font-size: 18px;
+  color: black;
+}
