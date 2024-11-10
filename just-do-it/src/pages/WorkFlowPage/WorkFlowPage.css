@@ -24,14 +24,14 @@
     margin-bottom: 30px;
   }
   
-  h2 {
+  /* h2 {
     color: #333;
     margin-bottom: 10px;
   }
   
   p {
     color: #555;
-  }
+  } */
   
   @media (min-width: 768px) {
     .workflow-steps {

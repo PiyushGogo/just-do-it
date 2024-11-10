@@ -1,15 +1,11 @@
 .team-section {
-    padding: 4rem 2rem;
-    /* background-color: #1c1c1c; */
+    padding: 2rem;
     background: linear-gradient(135deg, #1d1d1d, #2c2c2c);
-    color: #ffffff;
-    /* border-radius: 12px; */
   }
   
   .team-heading {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
     color: red;
     font-weight: 900;
   }
@@ -68,7 +64,7 @@
   
   .member-info p {
     font-size: 0.9rem;
-    color: #d1d1d1;
+    color: white;
   }
   
   /* Responsive styling */
