@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 2rem;
     background: linear-gradient(135deg, #1d1d1d, #2c2c2c);
-    color: #fff;
-    /* border-radius: 12px; */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  }
+  .clients-section p{
+    line-height: 1.6;
+    
   }
   
   .clients-content {
@@ -31,12 +32,7 @@
     text-align: left;
   }
   
- .highlight_h1 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 1rem;
-  }
-    
+
   .clients-text .highlight {
     color: white;
     font-weight: bold;
@@ -72,4 +68,12 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
+
+  @media (max-width: 750px) {
+    .clients-text {
+      padding: 0rem;
+    }
+  }
+
+
   

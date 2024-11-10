@@ -3,15 +3,15 @@ import "./ClientsSection.css"; // External CSS for styling
 
 const ClientsSection = () => {
   return (
-    <section className="clients-section">
-      <div className="clients-content">
+    <section className="clients-section ">
+      <div className="clients-content sec">
         <div className="clients-text">
           <h1 className="title_red">
             CLIENTS <br />
-            <span className="highlight_h1">WE'VE SERVED</span>
+            <span className="title_white">WE'VE SERVED</span>
           </h1>
 
-          <p className="clients-description">
+          <p className="text_p">
             We’re proud to have worked with a diverse range of clients across
             various industries, including
             <span className="highlight">
@@ -20,7 +20,7 @@ const ClientsSection = () => {
               news media, wedding videography, and fitness influencers.
             </span>
           </p>
-          <p className="clients-footer">
+          <p className="text_p">
             From building powerful brand stories to enhancing audience
             engagement, we tailor each project to meet unique needs and bring
             impactful results.
