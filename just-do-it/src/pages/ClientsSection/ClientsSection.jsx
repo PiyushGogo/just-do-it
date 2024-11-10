@@ -6,8 +6,11 @@ const ClientsSection = () => {
     <section className="clients-section">
       <div className="clients-content">
         <div className="clients-text">
-          <h1>CLIENTS</h1>
-          <h2>WE'VE SERVED</h2>
+          <h1>
+            CLIENTS <br />
+            <span className="highlight_h1">WE'VE SERVED</span>
+          </h1>
+
           <p className="clients-description">
             We’re proud to have worked with a diverse range of clients across
             various industries, including

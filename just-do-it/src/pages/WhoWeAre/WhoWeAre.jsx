@@ -12,7 +12,7 @@ const WhoWeAre = () => {
           </h1>
         </div>
         <div>
-          <p>
+          <p className="text_p">
             We’re a passionate team of{" "}
             <span className="text_red">
               {" "}
@@ -20,10 +20,8 @@ const WhoWeAre = () => {
               designers, content writers , influencer marketers, photographers
             </span>{" "}
             and a{" "}
-            <span className="text_red">
-              content script specialist each of us bringing unique skills to the
-              table.
-            </span>
+            <span className="text_red">content script specialist table.</span>
+            each of us bringing unique skills to the table.
           </p>
           <p>
             Together, we specialize in creating dynamic, high-impact content

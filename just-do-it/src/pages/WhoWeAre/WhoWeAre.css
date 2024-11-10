@@ -7,7 +7,7 @@
 .card{
     /* margin: 30px 10%; */
     padding: 20px;
-    background: radial-gradient(circle at 10% 20%, rgb(236, 204, 204) 0%, rgb(64, 64, 64) 90.2%);
+    /* background: radial-gradient(circle at 10% 20%, rgb(236, 204, 204) 0%, rgb(64, 64, 64) 90.2%); */
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -16,13 +16,14 @@
     box-shadow: 0 4px 8px 0 rgba(19, 19, 19, 0.2), 0 6px 20px 0 rgba(18, 17, 17, 0.19);
 }
 
+
 .text_h1{
     width: 80%;
 }
 .text_h1 h1{
     padding: 0px 20px;
     color: white;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900;
 }
 .text_red{
@@ -32,7 +33,9 @@
     color: blue;
 }
 p{
+    color: white !important;
     font-size: 28px;
+    line-height: 1.6;
 }
 
 @media (max-width: 750px) {

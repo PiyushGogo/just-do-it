@@ -21,6 +21,7 @@
     width: auto; /* Maintain aspect ratio */
     position: relative;
     top: 0.5rem;
+    padding-left: 80px;
 }
 
 /* Navigation styles */
@@ -80,6 +81,9 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
+    .header .logo {
+            padding-left: 0px;
+    }
     .header {
         flex-direction: row; /* Stack header items vertically */
         align-items: flex-start; /* Align items to the start */

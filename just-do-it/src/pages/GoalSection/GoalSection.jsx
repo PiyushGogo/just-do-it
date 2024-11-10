@@ -9,18 +9,16 @@ const GoalSection = () => {
           <img src="/goal.png" alt="Goal" className="icon" />
         </div>
         <div className="goal-text">
-          <h2 className="goal-heading">OUR GOAL</h2>
-          <p>
+          {/* <h2 className="goal-heading">OUR GOAL</h2> */}
+          <p className="goal-description">
             TO <span className="highlight-text">BRING YOUR BRAND</span> TO LIFE
             THROUGH VISUALLY CAPTIVATING,{" "}
             <span className="highlight-text">HIGH-QUALITY CONTENT</span>{" "}
             TAILORED TO{" "}
-            <span className="highlight-text">ENGAGE YOUR AUDIENCE</span> ACROSS
-            SOCIAL MEDIA PLATFORMS LIKE{" "}
             <span className="highlight-text">
-              INSTAGRAM, FACEBOOK, LINKEDIN, TWITTER, AND YOUTUBE
+              ENGAGE YOUR AUDIENCE ACROSS SOCIAL MEDIA PLATFORMS LIKE{" "}
             </span>
-            .
+            INSTAGRAM, FACEBOOK, LINKEDIN, TWITTER, AND YOUTUBE .
           </p>
         </div>
       </div>
