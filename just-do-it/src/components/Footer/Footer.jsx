@@ -21,13 +21,13 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/about">Who We Are</a>
+              <a href="#who-we-are">Who We Are</a>
             </li>
             <li>
-              <a href="/services">Our Goal</a>
+              <a href="#goal-section">Our Goal</a>
             </li>
             <li>
-              <a href="/services">Meet the Team</a>
+              <a href="#team-section">Meet the Team</a>
             </li>
           </ul>
         </div>
@@ -38,13 +38,13 @@ const Footer = () => {
               <a href="/">Services</a>
             </li>
             <li>
-              <a href="/about">Workflow</a>
+              <a href="#workflow-page">Workflow</a>
             </li>
             <li>
-              <a href="/services">Why Choose Us</a>
+              <a href="#why-choose-us">Why Choose Us</a>
             </li>
             <li>
-              <a href="/services">Contact</a>
+              <a href="#contact-us">Contact</a>
             </li>
           </ul>
         </div>
