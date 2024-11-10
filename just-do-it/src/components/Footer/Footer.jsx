@@ -21,13 +21,30 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/about">Who We Are</a>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <a href="/services">Our Goal</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/services">Meet the Team</a>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>
+              <a href="/">Services</a>
+            </li>
+            <li>
+              <a href="/about">Workflow</a>
+            </li>
+            <li>
+              <a href="/services">Why Choose Us</a>
+            </li>
+            <li>
+              <a href="/services">Contact</a>
             </li>
           </ul>
         </div>
