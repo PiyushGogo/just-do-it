@@ -4,12 +4,11 @@ import "./GoalSection.css"; // External CSS for styling
 const GoalSection = () => {
   return (
     <section className="goal-section">
-      <div className="goal-content">
+      <div className="goal-content sec">
         <div className="goal-image">
           <img src="/goal.png" alt="Goal" className="icon" />
         </div>
         <div className="goal-text">
-          {/* <h2 className="goal-heading">OUR GOAL</h2> */}
           <p className="goal-description">
             TO <span className="highlight-text">BRING YOUR BRAND</span> TO LIFE
             THROUGH VISUALLY CAPTIVATING,{" "}

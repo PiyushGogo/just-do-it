@@ -3,14 +3,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
     background-color: #1c1c1c;
-    color: #ffffff;
-    /* border-radius: 12px; */
+   
   }
   .goal-description{
     font-size: 2rem;
-    padding-top: 60px;
+    padding-top: 40px;
+    color: white;
+    line-height: 1.6;
   }
   
   .goal-content {
@@ -50,12 +50,13 @@
   
   /* Responsive styling */
   @media (max-width: 768px) {
-    .goal-section{
+    /* .goal-section{
         padding: 0rem 1rem;
-    }
+    } */
     .goal-description{
         font-size: 1rem;
         padding-top: 0px;
+        
     }
     .goal-heading{
         display: none;
