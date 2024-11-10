@@ -23,3 +23,8 @@
   font-size: 18px;
   color: black;
 }
+.sec{
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}

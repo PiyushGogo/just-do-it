@@ -3,7 +3,7 @@ import "./WhoWeAre.css";
 
 const WhoWeAre = () => {
   return (
-    <div className="who-we-are">
+    <div className="who-we-are sec">
       <div className="card">
         <div className="text_h1">
           <h1>
@@ -23,7 +23,7 @@ const WhoWeAre = () => {
             <span className="text_red">content script specialist table.</span>
             each of us bringing unique skills to the table.
           </p>
-          <p>
+          <p className="text_p">
             Together, we specialize in creating dynamic, high-impact content
             that helps brands make a lasting impression.
           </p>
