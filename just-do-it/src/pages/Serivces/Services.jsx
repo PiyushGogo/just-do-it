@@ -71,13 +71,15 @@ const services = [
 const Services = () => {
   return (
     <div className="services-page">
-      <h1>Services We Offer</h1>
+      <h1>
+        Services <spna className="team-highlight"> We Offer</spna>
+      </h1>
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
             <div className="icon-container">{service.icon}</div>
-            <h2>{service.title}</h2>
-            <p>{service.description}</p>
+            <h2 className="service-title">{service.title}</h2>
+            <p className="service-description">{service.description}</p>
           </div>
         ))}
       </div>

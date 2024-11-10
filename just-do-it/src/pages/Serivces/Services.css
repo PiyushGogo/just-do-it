@@ -41,14 +41,14 @@
     color: #1e88e5;
   }
   
-  h2 {
-    color: #333;
+  .service-title {
+    color: #333 ;
     margin-bottom: 10px;
     font-weight: 600;
   }
   
-  p {
-    color: #5d6975;
+  .service-description {
+    color: #5d6975 !important;
     font-size: 1rem;
   }
   
