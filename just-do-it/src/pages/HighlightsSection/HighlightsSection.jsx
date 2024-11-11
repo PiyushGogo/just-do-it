@@ -4,33 +4,33 @@ import "./HighlightsSection.css";
 const highlightsData = [
   {
     title: "VIDEO PODCAST",
-    image: "path/to/your/image1.jpg", // Replace with the path to your image
+    image: "/podcast.webp", // Replace with the path to your image
     videoUrl:
-      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
+      "https://drive.google.com/file/d/1uLAPE-p8uPv6mvyCnm8l-QogglEOo5Nd/view?usp=sharing",
     description:
       "Engaging conversations that spark ideas and inspire audiences. Our video podcasts deliver insightful discussions tailored for your brand.",
   },
   {
-    title: "OFFERS PROMOTING REELS",
-    image: "path/to/your/image2.jpg", // Replace with the path to your image
+    title: "OFFER PROMOTING REELS",
+    image: "/food_off.webp", // Replace with the path to your image
     videoUrl:
       "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
     description:
       "Captivating reels designed to highlight special offers and promotions, driving audience engagement and conversions.",
   },
   {
-    title: "INTRODUCING NEW SERVICES",
-    image: "path/to/your/image3.jpg", // Replace with the path to your image
+    title: "HEALTHCARE SERVICES",
+    image: "/prod.webp", // Replace with the path to your image
     videoUrl:
-      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
+      "https://drive.google.com/file/d/1IclKbz0rNeUNpboOHchHvET92i67_b4k/view?usp=sharing",
     description:
       "Showcasing your brand's new services with dynamic visuals and compelling narratives that capture attention and inform.",
   },
   {
-    title: "CUSTOMER TESTIMONIALS",
-    image: "path/to/your/image4.jpg", // Replace with the path to your image
+    title: "FOOD REVIEWS",
+    image: "food_rev.webp", // Replace with the path to your image
     videoUrl:
-      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
+      "https://drive.google.com/file/d/1W8b9fwD_sJbufXkNCteuTh4ncNk_tTW2/view?usp=sharing",
     description:
       "Authentic customer testimonials that build trust and credibility, showcasing the real impact of your brand on lives.",
   },
