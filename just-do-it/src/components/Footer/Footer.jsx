@@ -1,6 +1,7 @@
 // Footer.js
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,13 +23,19 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="#who-we-are">Who We Are</a>
+              <Link to="/who-we-are">
+                <p>Who we are</p>
+              </Link>
             </li>
             <li>
-              <a href="#goal-section">Our Goal</a>
+              <Link to="/our-goal">
+                <p>Our Goal</p>
+              </Link>
             </li>
             <li>
-              <a href="#team-section">Meet the Team</a>
+              <Link to="/team">
+                <p>Meet the Team</p>
+              </Link>
             </li>
           </ul>
         </div>
@@ -36,16 +43,24 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
             <li>
-              <a href="/">Services</a>
+              <Link to="/services">
+                <p>Services</p>
+              </Link>
             </li>
             <li>
-              <a href="#workflow-page">Workflow</a>
+              <Link to="/workflow">
+                <p> Workflow</p>
+              </Link>
             </li>
             <li>
-              <a href="#why-choose-us">Why Choose Us</a>
+              <Link to="/why-choose-us">
+                <p> Why Choose Us</p>
+              </Link>
             </li>
             <li>
-              <a href="#contact-us">Contact</a>
+              <Link to="/contact">
+                <p> Contact</p>
+              </Link>
             </li>
           </ul>
         </div>

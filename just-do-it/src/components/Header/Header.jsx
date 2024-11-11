@@ -21,6 +21,11 @@ const Header = () => {
       <nav className={isMenuOpen ? "nav-open" : ""}>
         <ul>
           <li>
+            <Link to="/">
+              <p>Home</p>
+            </Link>
+          </li>
+          <li>
             <Link to="/who-we-are">
               <p>Who we are</p>
             </Link>
