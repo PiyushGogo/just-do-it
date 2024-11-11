@@ -36,7 +36,7 @@
     margin: 0;
 }
 
-.header nav ul li a {
+.header nav ul li p {
     text-decoration: none;
     color: var(--primary-text, #fff); /* Default white text */
     font-weight: bold;
@@ -46,13 +46,13 @@
 }
 
 /* Hover effect for each navigation link */
-.header nav ul li a:hover {
+.header nav ul li p:hover {
     color: #ff6600; /* Change text color on hover */
     transform: scale(1.1); /* Add scale animation */
 }
 
 /* Sliding underline effect */
-.header nav ul li a::after {
+.header nav ul li p::after {
     content: '';
     position: absolute;
     left: 0;
@@ -63,7 +63,7 @@
     transition: width 0.3s ease; /* Smooth sliding effect */
 }
 
-.header nav ul li a:hover::after {
+.header nav ul li p:hover::after {
     width: 100%; /* Full-width underline on hover */
 }
 
@@ -116,13 +116,13 @@
         padding: 1rem 0; /* Add padding */
     }
 
-    .header nav ul li a {
+    .header nav ul li p {
         text-align: left; /* Align links to the left */
         padding: 1rem 2rem; /* Increase padding for easier tap */
         font-size: 18px; /* Adjust font size for better mobile readability */
     }
 
-    .header nav ul li a:hover {
+    .header nav ul li p:hover {
         transform: none; /* Remove hover transform on mobile */
     }
 }

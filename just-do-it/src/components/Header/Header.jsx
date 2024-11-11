@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,34 +11,49 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="#hero">
+      <Link to="/">
         <img src="/logo.png" alt="Just Do It Logo" className="logo" />
-      </a>
+      </Link>
+
       <div className="menu-toggle" onClick={toggleMenu}>
         ☰ {/* Menu icon */}
       </div>
       <nav className={isMenuOpen ? "nav-open" : ""}>
         <ul>
           <li>
-            <a href="#who-we-are">Who We Are</a>
+            <Link to="/who-we-are">
+              <p>Who we are</p>
+            </Link>
           </li>
           <li>
-            <a href="#goal">Our Goal</a>
+            <Link to="/our-goal">
+              <p>Our Goal</p>
+            </Link>
           </li>
           <li>
-            <a href="#team">Meet the Team</a>
+            <Link to="/team">
+              <p>Meet the Team</p>
+            </Link>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <Link to="/services">
+              <p>Services</p>
+            </Link>
           </li>
           <li>
-            <a href="#workflow">Workflow</a>
+            <Link to="/workflow">
+              <p> Workflow</p>
+            </Link>
           </li>
           <li>
-            <a href="#why-choose-us">Why Choose Us</a>
+            <Link to="/why-choose-us">
+              <p> Why Choose Us</p>
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="/contact">
+              <p> Contact</p>
+            </Link>
           </li>
         </ul>
       </nav>
