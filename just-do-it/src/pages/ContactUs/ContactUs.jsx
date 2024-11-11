@@ -4,7 +4,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="contact-us">
-      <div>
+      <div className="cu-text">
         <h1 className="title_white">
           LET’S <span className="title_red">BUILD</span> SOMETHING{" "}
           <span className="title_red">GREAT</span> TOGETHER
@@ -28,10 +28,6 @@ const ContactUs = () => {
             <h2 className="card_heading">Call Us</h2>
             <p className="card_desc">9573126534</p>
           </div>
-          {/* <div className="cu-card">
-            <h2 className="card_heading">Website</h2>
-            <p className="card_desc">LINK</p>
-          </div> */}
           <div className="cu-card">
             <h2 className="card_heading">Social Media</h2>
 

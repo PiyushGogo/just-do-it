@@ -48,11 +48,23 @@
 .highlight-title {
   margin: 10px 0;
   font-size: 1.2em;
+  color: red;
 }
 
 .highlight-description {
   font-size: 0.9em;
 }
+.highlight-thumbnail {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.highlight-thumbnail:hover {
+  transform: scale(1.05);
+}
+
 
 /* Mobile view: one section per line */
 @media (max-width: 768px) {

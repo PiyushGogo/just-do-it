@@ -4,31 +4,41 @@ import "./HighlightsSection.css";
 const highlightsData = [
   {
     title: "VIDEO PODCAST",
-    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
+    image: "path/to/your/image1.jpg", // Replace with the path to your image
+    videoUrl:
+      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
     description:
       "Engaging conversations that spark ideas and inspire audiences. Our video podcasts deliver insightful discussions tailored for your brand.",
   },
   {
     title: "OFFERS PROMOTING REELS",
-    video: "https://www.w3schools.com/html/movie.mp4", // Replace with your video URL
+    image: "path/to/your/image2.jpg", // Replace with the path to your image
+    videoUrl:
+      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
     description:
       "Captivating reels designed to highlight special offers and promotions, driving audience engagement and conversions.",
   },
   {
     title: "INTRODUCING NEW SERVICES",
-    video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
+    image: "path/to/your/image3.jpg", // Replace with the path to your image
+    videoUrl:
+      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
     description:
       "Showcasing your brand's new services with dynamic visuals and compelling narratives that capture attention and inform.",
   },
   {
     title: "CUSTOMER TESTIMONIALS",
-    video: "https://www.w3schools.com/html/movie.mp4", // Replace with your video URL
+    image: "path/to/your/image4.jpg", // Replace with the path to your image
+    videoUrl:
+      "https://drive.google.com/file/d/1T_dQkbbXdQn4m4q-Yylr1x6pgpm0fZrl/view?usp=sharing",
     description:
       "Authentic customer testimonials that build trust and credibility, showcasing the real impact of your brand on lives.",
   },
   {
     title: "FITNESS INFLUENCER WORKOUTS",
-    video: "/Vinay.mp4", // Replace with your video URL
+    image: "/fit-inf.png", // Replace with the path to your image
+    videoUrl:
+      "https://drive.google.com/file/d/1_cYWYndnWXhczxCyRLg0xYw6W_1rG7R0/view",
     description:
       "Creative, high-energy workout videos featuring fitness influencers, designed to inspire and motivate audiences while promoting a healthy lifestyle.",
   },
@@ -43,19 +53,14 @@ const HighlightsSection = () => {
       <div className="highlights-container">
         {highlightsData.map((item, index) => (
           <div key={index} className="highlight-card">
-            <div className="video-container">
-              <video
-                src={item.video}
-                className="highlight-video"
-                controls
-                loop
-                muted
-              ></video>
-            </div>
-            <div className="card-content">
-              <h3 className="card_heading">{item.title}</h3>
-              <p className="highlight-description">{item.description}</p>
-            </div>
+            <img
+              src={item.image}
+              alt={item.title}
+              className="highlight-thumbnail"
+              onClick={() => window.open(item.videoUrl, "_blank")}
+            />
+            <h3 className="highlight-title">{item.title}</h3>
+            <p className="highlight-description">{item.description}</p>
           </div>
         ))}
       </div>
