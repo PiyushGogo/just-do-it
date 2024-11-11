@@ -14,6 +14,9 @@ const Home = () => {
   return (
     <>
       <div className="home">
+        <div className="hero">
+          <img src="/home-page-banner.webp" alt="Hero" className="hero-image" />
+        </div>
         <WhoWeAre />
         <ClientsSection />
         <GoalSection />

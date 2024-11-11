@@ -28,3 +28,10 @@
   margin: auto;
   padding: 2rem;
 }
+
+.hero{
+  padding-top: 3rem;
+}
+.hero-image{
+  width: 100%;
+}
