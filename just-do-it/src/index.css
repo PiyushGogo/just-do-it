@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  background-color: #1c1c1c;
 }
 
 code {

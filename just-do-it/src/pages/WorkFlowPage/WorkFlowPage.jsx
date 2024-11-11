@@ -44,11 +44,14 @@ const workflowSteps = [
 const WorkFlowPage = () => {
   return (
     <div className="workflow-page">
-      <h1>Our Workflow</h1>
+      <h1 className="title_white">
+        OUR <span className="title_red"> WORKFLOW</span>
+      </h1>
       <div className="workflow-steps">
         {workflowSteps.map((step) => (
           <div key={step.stepNumber} className="workflow-step">
-            <h2>
+            <h2 className="card_heading">
+              {" "}
               Step {step.stepNumber}: {step.title}
             </h2>
             <p>{step.description}</p>

@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="footer-section">
           <h4>About Us</h4>
           <p>
-            We are a leading company providing the best services in the
-            industry. Our mission is to deliver top-notch solutions for our
-            clients.
+            Our team thrives on innovation and unparalleled expertise,
+            delivering powerful, trend-setting content that captivates audiences
+            and drives results. With every project, we push boundaries to
+            elevate brands beyond their expectations.
           </p>
         </div>
         <div className="footer-section">
@@ -52,7 +53,6 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>Email: justdoit26092024@gmail.com</p>
           <p>Phone: +91-9573126534</p>
-          <p>Address: 123 Main Street, City, Country</p>
         </div>
       </div>
       <div className="footer-bottom">
