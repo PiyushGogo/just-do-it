@@ -1,70 +1,77 @@
 import React from "react";
 import "./Services.css"; // Import a CSS file for styling
 import {
-  FaLaptopCode,
-  FaMobileAlt,
-  FaCloud,
-  FaShieldAlt,
-  FaSearchDollar,
-  FaHandshake,
-  FaChartPie,
-  FaRocket,
-  FaCog,
-  FaLightbulb,
+  FaUserFriends,
+  FaVideo,
+  FaShareAlt,
+  FaBullhorn,
+  FaBullseye,
+  FaCamera,
+  FaPen,
+  FaPaintBrush,
+  FaFileAlt,
+  FaBlog,
 } from "react-icons/fa";
 
 const services = [
   {
-    title: "Web Development",
-    icon: <FaLaptopCode />,
-    description: "Custom, responsive websites tailored to your needs.",
-  },
-  {
-    title: "Mobile App Development",
-    icon: <FaMobileAlt />,
-    description: "High-quality mobile applications for iOS and Android.",
-  },
-  {
-    title: "Cloud Solutions",
-    icon: <FaCloud />,
+    title: "Influencer Marketing",
+    icon: <FaUserFriends />,
     description:
-      "Scalable cloud infrastructure and services for modern businesses.",
+      "Amplify your brand's reach through strategic collaborations with influencers.",
   },
   {
-    title: "Cybersecurity",
-    icon: <FaShieldAlt />,
-    description: "Robust security solutions to protect your digital assets.",
-  },
-  {
-    title: "SEO and Marketing",
-    icon: <FaSearchDollar />,
+    title: "Video Editing",
+    icon: <FaVideo />,
     description:
-      "Boost your visibility with expert SEO and digital marketing strategies.",
+      "Professional editing that brings your vision to life with dynamic storytelling.",
   },
   {
-    title: "Consulting Services",
-    icon: <FaHandshake />,
-    description: "Professional consulting to streamline your operations.",
+    title: "Social Media Management",
+    icon: <FaShareAlt />,
+    description:
+      "Building and managing your online presence across all major platforms.",
   },
   {
-    title: "Data Analytics",
-    icon: <FaChartPie />,
-    description: "Data-driven insights to help you make informed decisions.",
+    title: "Digital Marketing Services",
+    icon: <FaBullhorn />,
+    description:
+      "Comprehensive strategies to enhance your brand's visibility and growth.",
   },
   {
-    title: "Product Launch",
-    icon: <FaRocket />,
-    description: "Comprehensive support for a successful product launch.",
+    title: "Ad Campaign Management",
+    icon: <FaBullseye />,
+    description:
+      "Running targeted ad campaigns to maximize reach and drive results across digital platforms.",
   },
   {
-    title: "Technical Support",
-    icon: <FaCog />,
-    description: "Reliable tech support to keep your systems running smoothly.",
+    title: "Photographic Services",
+    icon: <FaCamera />,
+    description: "High-quality photography to capture your brand's essence.",
   },
   {
-    title: "Innovation and Ideation",
-    icon: <FaLightbulb />,
-    description: "Creative solutions and brainstorming for unique challenges.",
+    title: "Content Writing",
+    icon: <FaPen />,
+    description:
+      "Crafting engaging and compelling narratives tailored to your audience.",
+  },
+  {
+    title: "Graphic Design",
+    icon: <FaPaintBrush />,
+    description:
+      "Creating stunning visuals, including logos, posters, and thumbnails.",
+  },
+  {
+    title: "Copywriting",
+    icon: <FaFileAlt />,
+    description:
+      "Persuasive copy that drives action and resonates with your audience.",
+  },
+  {
+    title: "Blog Writing",
+    icon: <FaBlog />,
+    description:
+      "Informative and engaging blog posts to enhance your content strategy.",
   },
 ];
 
@@ -78,8 +85,8 @@ const Services = () => {
         {services.map((service, index) => (
           <div key={index} className="service-card">
             <div className="icon-container">{service.icon}</div>
-            <h2 className="service-title">{service.title}</h2>
-            <p className="service-description">{service.description}</p>
+            <h2 className="card_heading">{service.title}</h2>
+            <p className="card_desc">{service.description}</p>
           </div>
         ))}
       </div>

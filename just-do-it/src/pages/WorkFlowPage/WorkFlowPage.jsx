@@ -1,38 +1,46 @@
 import React from "react";
 import "./WorkFlowPage.css";
+import {
+  FaLightbulb,
+  FaPenFancy,
+  FaRocket,
+  FaChartLine,
+  FaComments,
+} from "react-icons/fa";
 
 const workflowSteps = [
   {
     stepNumber: 1,
-    title: "Discovery and Strategy",
+    title: "Discovery & Strategy",
     description:
-      "This is where we gather insights, understand client needs, and set the overall strategy for the project.",
+      "We begin by understanding your goals, target audience, and brand identity. This foundational insight shapes our tailored approach.",
   },
   {
     stepNumber: 2,
-    title: "Content Planning and Creation",
+    title: "Content Planning & Creation",
     description:
-      "In this step, we plan the content structure and create compelling content that aligns with the strategy.",
+      "Our team crafts a strategy, selects formats, and produces content that resonates, aligning with your brand’s objectives.",
   },
   {
     stepNumber: 3,
-    title: "Execution and Distribution",
+    title: "Execution & Distribution",
     description:
-      "We execute the project and ensure that the content is distributed through appropriate channels.",
+      "We seamlessly launch and distribute content across selected channels, ensuring maximum reach and engagement.",
   },
   {
     stepNumber: 4,
-    title: "Monitoring and Optimization",
+    title: "Monitoring & Optimization",
     description:
-      "We monitor the performance and make data-driven optimizations to maximize impact.",
+      "We track performance, analyze metrics, and refine strategies to enhance impact and drive continuous growth.",
   },
   {
     stepNumber: 5,
-    title: "Reporting and Feedback",
+    title: "Reporting & Feedback",
     description:
-      "We provide detailed reports and collect feedback to continuously improve our workflow.",
+      "Regular updates and transparent communication keep you informed, helping us align further with your evolving needs.",
   },
 ];
+
 const WorkFlowPage = () => {
   return (
     <div className="workflow-page">

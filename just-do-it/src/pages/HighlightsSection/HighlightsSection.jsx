@@ -53,7 +53,7 @@ const HighlightsSection = () => {
               ></video>
             </div>
             <div className="card-content">
-              <h3 className="highlight-title">{item.title}</h3>
+              <h3 className="card_heading">{item.title}</h3>
               <p className="highlight-description">{item.description}</p>
             </div>
           </div>
