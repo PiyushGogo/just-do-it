@@ -36,7 +36,7 @@ const highlightsData = [
   },
   {
     title: "FITNESS INFLUENCER WORKOUTS",
-    image: "/fit-inf.png", // Replace with the path to your image
+    image: "/fit-inf.webp", // Replace with the path to your image
     videoUrl:
       "https://drive.google.com/file/d/1_cYWYndnWXhczxCyRLg0xYw6W_1rG7R0/view",
     description:
