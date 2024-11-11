@@ -60,6 +60,15 @@
     font-size: 0.9rem;
   }
   
+  .email-link{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .email-link:hover {
+    color: #f39c12;
+  }
   /* Responsive styles */
   @media (max-width: 768px) {
     .footer{

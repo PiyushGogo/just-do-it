@@ -66,7 +66,13 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: justdoit26092024@gmail.com</p>
+          {/* <p>Email: justdoit26092024@gmail.com</p> */}
+          <p>
+            Email:- &nbsp;
+            <a className="email-link" href="mailto:justdoit26092024@gmail.com">
+              justdoit26092024@gmail.com
+            </a>
+          </p>
           <p>Phone: +91-9573126534</p>
         </div>
       </div>

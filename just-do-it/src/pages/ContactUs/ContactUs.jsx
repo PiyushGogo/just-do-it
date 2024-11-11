@@ -22,11 +22,19 @@ const ContactUs = () => {
         <div className="re1">
           <div className="cu-card">
             <h2 className="card_heading">Email</h2>
-            <p className="card_desc">justdoit26092024@gmail.com</p>
+            {/* <p className="card_desc">justdoit26092024@gmail.com</p> */}
+            <p className="card_desc">
+              <a
+                className="email-link_text"
+                href="mailto:justdoit26092024@gmail.com"
+              >
+                justdoit26092024@gmail.com
+              </a>
+            </p>
           </div>
           <div className="cu-card">
             <h2 className="card_heading">Call Us</h2>
-            <p className="card_desc">9573126534</p>
+            <p className="card_desc">+91-9573126534</p>
           </div>
           <div className="cu-card">
             <h2 className="card_heading">Social Media</h2>
