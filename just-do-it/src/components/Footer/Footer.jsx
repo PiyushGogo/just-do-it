@@ -50,13 +50,13 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: info@company.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Email: justdoit26092024@gmail.com</p>
+          <p>Phone: +91-9573126534</p>
           <p>Address: 123 Main Street, City, Country</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Just Do It. All Rights Reserved.</p>
       </div>
     </footer>
   );
