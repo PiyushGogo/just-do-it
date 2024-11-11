@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css"; // Import a CSS file for styling
+
 import {
   FaUserFriends,
   FaVideo,
@@ -11,6 +12,7 @@ import {
   FaPaintBrush,
   FaFileAlt,
   FaBlog,
+  FaSearch,
 } from "react-icons/fa";
 
 const services = [
@@ -72,6 +74,12 @@ const services = [
     icon: <FaBlog />,
     description:
       "Informative and engaging blog posts to enhance your content strategy.",
+  },
+  {
+    title: "SEO Services",
+    icon: <FaSearch />,
+    description:
+      "Optimizing your content and website to rank higher in search engines and increase organic traffic.",
   },
 ];
 

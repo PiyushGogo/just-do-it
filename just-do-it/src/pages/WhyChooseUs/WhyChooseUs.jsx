@@ -5,8 +5,7 @@ const WhyChooseUs = () => {
   return (
     <div className="why-choose-us">
       <h1>
-        <span className="text_red">WHY</span> CHOOSE US{" "}
-        <span className="text_blue">?</span>
+        <span className="text_red">WHY</span> CHOOSE US ?
       </h1>
       <div className="bg">
         <div className="why-card">
